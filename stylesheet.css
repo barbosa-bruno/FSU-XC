@@ -1,0 +1,153 @@
+/* Style the navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+#navbar {
+    background-color: gold; /* Gold background */
+    color: black; /* Black text */
+    text-align: center;
+    padding: 1rem;
+}
+
+#navbar a {
+    color: black; /* Black text */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Section for images */
+.content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.photo-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.photo-section div {
+    width: 30%;
+    background-color: #e1e1e1;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: gold;
+    text-align: center;
+    padding: 1rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Set the background to black */
+    color: gold; /* Set the text color to gold for better contrast */
+}
+
+.photo-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.photo-section div {
+    text-align: center;
+}
+
+.photo-section img {
+    width: 350px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional rounded corners */
+    border: 2px solid gold; /* Gold border for styling */
+}
+/* Photo section styling */
+.photo-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+/* Container for each photo and name */
+.photo-section div {
+    text-align: center;
+    width: 200px; /* Set fixed width */
+    height: 300px; /* Set fixed height */
+    background-color: #e1e1e1; /* Optional background for photo containers */
+    border: 2px solid gold; /* Gold border */
+    border-radius: 8px; /* Optional rounded corners */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Image styling */
+.photo-section img {
+    width: 100%; /* Make image fit the width of the div */
+    height: 100%; /* Make image fit the height of the div */
+    object-fit: cover; /* Ensure the image covers the entire div without distortion */
+    border-radius: 8px; /* Match the rounded corners */
+}
+.button-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.large-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: gold; /* Button background color */
+    color: black; /* Button text color */
+    border: 2px solid black; /* Button border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1.5rem; /* Large font size */
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+}
+
+.large-button:hover {
+    background-color: black; /* Change background on hover */
+    color: gold; /* Change text color on hover */
+}
